@@ -2,9 +2,8 @@
 
 # Laravel portfolio
 
-**Milestone 1**
-nome repo 1: `laravel-api`
-
+**Milestone 1**  
+nome repo 1: `laravel-api`  
 [ ]Aggiungiamo al nostro progetto Laravel una nuovo Api/ProjectController.  
 [ ]Questo controller risponderà a delle richieste via API e si occuperà di restituire la lista dei progetti presenti nel database in formato json.
 
@@ -12,7 +11,7 @@ nome repo 1: `laravel-api`
 [ ]Testiamo la chiamata API tramite Postman e assicuriamoci di ricevere i dati correttamente.
 
 **Milestone 3**  
-nome repo 2: `vite-boolfolio`
+nome repo 2: `vite-boolfolio`  
 [ ]Iniziamo ad occuparci della parte front-office della nostra applicazione: creiamo un nuovo progetto Vue 3 con Vite e installiamo axios.  
 [ ]Colleghiamo questo progetto ad una repo separata.
 
