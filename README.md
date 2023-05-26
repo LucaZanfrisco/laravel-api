@@ -11,4 +11,4 @@ nome repo 1: `laravel-api`
 - [x] Testiamo la chiamata API tramite Postman e assicuriamoci di ricevere i dati correttamente.
 
 **Milestone 3**   
-- [ ] Rotta API per il dettaglio dei vostri progetti
+- [x] Rotta API per il dettaglio dei vostri progetti
