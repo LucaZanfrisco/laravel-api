@@ -40,9 +40,9 @@ class Project extends Model
     }
 
     // Accessor che modifica il formato della data 'Y-m-d' in 'd-m-Y'
-    protected function dataDiCreazione(): Attribute{
-        return Attribute::make(
-            get: fn(string $value) => date('d-m-Y',strtotime($value)),
-        );
-    }
+    // protected function dataDiCreazione(): Attribute{
+    //     return Attribute::make(
+    //         get: fn(string $value) => date('d-m-Y',strtotime($value)),
+    //     );
+    // }
 }
