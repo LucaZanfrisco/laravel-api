@@ -12,3 +12,6 @@ nome repo 1: `laravel-api`
 
 **Milestone 3**   
 - [x] Rotta API per il dettaglio dei vostri progetti
+
+**Milestone 4**
+- [ ] Creazione API per risorse accessorie (tecnologie, tipologie)
