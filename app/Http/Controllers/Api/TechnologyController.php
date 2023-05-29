@@ -20,7 +20,7 @@ class TechnologyController extends Controller
         
         $technology = Technology::where('slug', $slug)->with('projects')->get();
 
-        if($technology){
+        if(count($technology) > 0){
             return response()->json([
                 'success' => true,
                 'result' => $technology
