@@ -26,8 +26,8 @@ Route::get('projects', [ProjectController::class, 'index']);
 Route::get('projects/{slug}', [ProjectController::class, 'show']);
 
 // Rotte API per la lista e il dettaglio delle tecnologie
-Route::get('technologies', [TechnologyController::class. 'index']);
-Route::get('techonolgies/{slug}', [TechnologyController::class, 'show']);
+Route::get('technologies', [TechnologyController::class, 'index']);
+Route::get('technologies/{slug}', [TechnologyController::class, 'show']);
 
 // Rotta API per la lista e il dettaglio della tipologia
 Route::get('types', [TypeController::class, 'index']);
