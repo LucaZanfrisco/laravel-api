@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\LeadController;
 use App\Http\Controllers\Api\ProjectController;
 use App\Http\Controllers\Api\TechnologyController;
 use App\Http\Controllers\Api\TypeController;
@@ -33,3 +34,5 @@ Route::get('technologies/{slug}', [TechnologyController::class, 'show']);
 Route::get('types', [TypeController::class, 'index']);
 Route::get('types/{slug}', [TypeController::class, 'show']);
 
+//Rotta per la ricezione dei dati del contatto
+Route::post('lead' , [LeadController::class],'store');
