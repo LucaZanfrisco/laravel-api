@@ -15,3 +15,6 @@ nome repo 1: `laravel-api`
 
 **Milestone 4**
 - [x] Creazione API per risorse accessorie (tecnologie, tipologie)
+
+**Milestone 5**  
+- [ ] Create tutto il necessario per l'inserimento e la gestione della risorsa 'Lead'

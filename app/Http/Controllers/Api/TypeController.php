@@ -18,9 +18,9 @@ class TypeController extends Controller
     }
     public function show(string $slug){
         
-        $type = Type::where('slug', $slug)->with('projects')->get();
+        $type = Type::where('slug', $slug)->with('projects.technologies')->first();
 
-        if(count($type) > 0){
+        if($type){
             return response()->json([
                 'success' => true,
                 'result' => $type

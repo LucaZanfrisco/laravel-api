@@ -18,9 +18,9 @@ class TechnologyController extends Controller
     }
     public function show(string $slug){
         
-        $technology = Technology::where('slug', $slug)->with('projects')->get();
+        $technology = Technology::where('slug', $slug)->with('projects')->first();
 
-        if(count($technology) > 0){
+        if($technology){
             return response()->json([
                 'success' => true,
                 'result' => $technology
