@@ -13,7 +13,7 @@ class LeadController extends Controller
         $data = $request->validate([
             'name' => 'required|string',
             'email' => 'required|email',
-            'message' => 'nullable|string'
+            'messagge' => 'nullable|string'
         ]);
 
         $lead =  new Lead();
@@ -21,5 +21,7 @@ class LeadController extends Controller
         $lead->email = $data['email'];
         $lead->messaggio = $data['messagge'];
         $lead->save();
+
+        
     }
 }
