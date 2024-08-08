@@ -74,7 +74,7 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <div>Eliminare il progetto n°{{$project->id}}: {{ $project->nome }} ?</div>
+                                    <div>Eliminare il progetto n°{{ $project->id }}: {{ $project->nome }} ?</div>
                                 </div>
                                 <div class="modal-footer">
                                     <form action="{{ route('admin.project.destroy', $project) }}" method="POST">
